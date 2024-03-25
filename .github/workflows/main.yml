@@ -1,11 +1,12 @@
 name: ASP.NET Core CI
 
 on:
+  workflow_dispatch:
   push:
-    branches:
-      - 'release/PetclinicFront/v*'
-    paths:
-      - 'PetclinicFront/**'
+    branches: [ master ]
+  pull_request:
+    # The branches below must be a subset of the branches above
+    branches: [ master ]
 
 jobs:
   build:
