@@ -7,7 +7,7 @@ on:
     # The branches below must be a subset of the branches above
     branches: [ master ]
 env:
-  AZURE_WEBAPP_NAME: demoactions
+  AZURE_WEBAPP_NAME: NACE1NASPGITHUB01
   AZURE_WEBAPP_PACKAGE_PATH: PetclinicFront\published
   CONFIGURATION: Release
   DOTNET_CORE_VERSION: 5.0.x
